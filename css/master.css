@@ -1,71 +1,37 @@
+/* Global Properties */
 body{
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  width: 100vw;
-  height: 100vh;
+  background-image: url(/images/love.png);
 }
 
-header{
-  background-color: #EF8A17;
-  display: flex;
+/* Header margin */
+.header {
+  margin: -20px 0px 0px;
 }
 
-section{
-  flex-grow: 6;
-  background-color: #C6C013;
-  position:relative;
+/* Page Header properties */
+.header h1 {
+  background-color: pink;
+  color: red;
 }
 
-footer{
-  background-color: #EF8A17;
-  text-align: center;
-  padding-bottom: 1em;
+/* Card size  */
+.card {
+    width: 25rem;
 }
 
-section> img{
-  width: 100%;
-  opacity: 0.4;
-  position: absolute;
-  height: 100%;
+/* Footer Color  */
+.footer {
+ color: white;
+ margin: 0;
 }
 
-section> h2{
-  position:relative;
-  text-align: center;
-  width: 100%;
-  padding-top: 5em;
+/* carousel size  */
+.carousel-inner{
+  width:100%;
+  max-height: 300px !important;
 }
 
-.img-property{
-  font-size:5em;
-}
-
-.header-name{
-  font-size: 3em;
-  position:relative;
-  text-align: center;
-  width: 100%;
-  padding-top: 20px;
-  padding-right: 50px
-}
-
-.nav-items{
-top : 50px;
-right: 0px;
-}
-
-
-nav > ul{
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  top : 10px;
-  right: 0px;
-  position: absolute;
-  font-size: 2em;
-}
-
-nav ul > li{
-  padding: 8px;
+/*Space between carousel and cards*/
+.marginspace{
+  margin-top: 20px;
 }
