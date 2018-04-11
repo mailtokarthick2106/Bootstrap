@@ -3,35 +3,63 @@ body{
   background-image: url(/images/love.png);
 }
 
-/* Header margin */
-.header {
-  margin: -20px 0px 0px;
+.container-fluid{
+  padding: 0px;
 }
-
 /* Page Header properties */
-.header h1 {
-  background-color: pink;
-  color: red;
+header {
+  margin: -10;
+  padding-left:15px;
+  padding-right:15px;
+  background-image: url(/images/brown.jpeg);
 }
 
-/* Card size  */
-.card {
-    width: 25rem;
+header h1 {
+  color: white;
 }
 
-/* Footer Color  */
-.footer {
- color: white;
- margin: 0;
+header h1 small{
+  color: yellow;
 }
 
-/* carousel size  */
+/* navbar Properties  */
+.navbar {
+  padding-left: 0px;
+  padding-top: 4px;
+  padding-bottom: 0px;
+  background-color: #e3f2fd;
+}
+
+/* carousel Properties  */
 .carousel-inner{
   width:100%;
   max-height: 300px !important;
 }
 
-/*Space between carousel and cards*/
+
+/*Space between sections*/
 .marginspace{
   margin-top: 20px;
+}
+
+/*Card Properties */
+.card{
+  max-width: auto;
+  max-height: auto;
+}
+
+.card-img {
+  opacity: 0.5;
+  height: 300px;
+}
+
+/* Page Footer Properties  */
+footer {
+ background-image: url(/images/brown.jpeg);
+ margin: 0;
+ color: white;
+}
+
+.footer > img {
+  max-height :30px;
 }
